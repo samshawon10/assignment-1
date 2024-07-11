@@ -1405,7 +1405,25 @@ align-self: stretch;
 flex-grow: 0;
 margin: 111px 0px;
 }
+.Target-part1{
+    /* Frame 12 */
+position: static;
+width: 946px;
+height: 113px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
 
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 48px 0px;
+}
 
 
 
