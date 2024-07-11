@@ -1389,11 +1389,11 @@ text-align: center;
   /* Frame 26 */
 position: absolute;
 width: 1150px;
-height: 1500px;
+height: 1600px;
 left: 150px;
 right: 150px;
-top: 3600px;
-bottom: 542px;
+top: 3700px;
+bottom: 550px;
 /* Auto layout */
 display: flex;
 flex-direction: column;
@@ -1413,7 +1413,8 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-padding: 0px;
+padding: 15px;
+text-align: center;
 
 
 /* Inside Auto Layout */
@@ -1426,7 +1427,7 @@ margin: 48px 0px;
     /* Frame 5 */
 position: static;
 width: 852px;
-height: 113px;
+height: 110px;
 /* Auto layout */
 display: flex;
 flex-direction: column;
@@ -1489,7 +1490,7 @@ margin: 24px 0px;
 opacity: 0.7;
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 16px;
+font-size: 14px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
@@ -1500,13 +1501,13 @@ text-align: center;
     /* Frame 18 */
 position: static;
 width: 1140px;
-height: 299px;
+height: 350px;
 /* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: center;
-padding: 0px;
+padding: 10px 10px 10px 10px;
 
 
 
@@ -1782,8 +1783,7 @@ background: rgba(0, 76, 232, 0.05);
 }
 
 .box-topic-222{
-
-    /* Frame 16 */
+/* Frame 16 */
 position: static;
 width: 364px;
 height: 299px;
