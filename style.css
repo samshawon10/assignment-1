@@ -1386,24 +1386,22 @@ text-align: center;
 }
 
 .Curret-Target-Main{
-    /* Frame 19 */
-position: static;
-width: 1140px;
-height: 460px;
+  /* Frame 26 */
+position: absolute;
+width: 1150px;
+height: 1500px;
+left: 150px;
+right: 150px;
+top: 3600px;
+bottom: 542px;
 /* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-align-items: center;
+align-items: flex-start;
 padding: 0px;
 
 
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 111px 0px;
 }
 .Target-part1{
     /* Frame 12 */
@@ -1511,12 +1509,15 @@ align-items: center;
 padding: 0px;
 
 
+
+
 /* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 margin: 48px 0px;
+
 }
 
 .box-topic-1{
@@ -1529,18 +1530,21 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 40px;
+padding: 24px;
+border-radius: 16px;
 
+background: rgba(255, 76, 30, 0.05);
 
 /* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 0;
 margin: 0px 24px;
-border-radius: 16px;
-
-background: rgba(255, 76, 30, 0.05);
 }
+
+
+
+
 .box-topic-2{
     /* Frame 10 */
 position: static;
@@ -1560,6 +1564,7 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 margin: 32px 0px;
+
 }
 .box-topic-3{
     /* Group 5 */
@@ -1749,17 +1754,63 @@ text-decoration-line: underline;
 
 
 .box-topic-333{
+
+
+    /* Frame 16 */
+position: static;
+width: 364px;
+height: 299px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 24px;
+border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
     border-radius: 16px;
 
     background: rgba(255, 223, 0, 0.05);
 }
 
 .box-topic-222{
+
+    /* Frame 16 */
+position: static;
+width: 364px;
+height: 299px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 24px;
+
     border-radius: 16px;
 
 background: rgba(0, 76, 232, 0.05);
 }
 
+.box-learn{
+    border: none;
+    text-decoration: none;
+    background: none;
+}
 
 
 
