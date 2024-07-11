@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 .Body-class{
-    /* Desktop - 1 */
+    
 position: relative;
 width: 1440px;
 height: 5245px;
@@ -10,9 +10,15 @@ background: rgb(255, 255, 255);
 
 
 /* font-family: "Azeret Mono", monospace; */
+
+
+
+
 /* Header Part */
+
+
 .header-1{
-    /* Desktop - 1 */
+   
 position: relative;
 width: 1440px;
 height: 5245px;
@@ -36,13 +42,12 @@ text-align: left;
 }
 
 .btn-1{
-    /* Frame 2 */
+   
 position: absolute;
 width: 244px;
 height: 57px;
 left: 1046px;
 top: 38px;
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -56,8 +61,11 @@ border-radius: 8px;
 opacity: 0.8;
 
 }
+
+
+ /* Download Resume */
 .download-resume{
-    /* Download Resume */
+   
 position: static;
 width: 196px;
 height: 23px;
@@ -67,9 +75,6 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 17px 24px 17px 24px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -84,9 +89,14 @@ text-align: center;
 text-decoration: none;
 }
 
-.main-1{
-    /* Main 1 */
+
+
+ /* Main 1 */
     /* Hero-bg */
+
+
+.main-1{
+   
 position: absolute;
 width: 1440px;
 height: 800px;
@@ -95,11 +105,8 @@ right: 0;
 top: 131px;
 bottom: 4462px;
     background-image: url(assets/Hero-bg.png);
-
-
 }
 .intro {
-    /* Frame 4 */
 position: absolute;
 width: 998px;
 height: 582px;
@@ -107,7 +114,6 @@ left: 221px;
 right: 221px;
 top: 157px;
 bottom: 4506px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -116,9 +122,8 @@ padding: 0px;
 
 
 }
+/* Image Part */
 .img{
-    /* Group */
-/* Group */
 position: absolute;
 width: 173.03px;
 height: 228.9px;
@@ -133,15 +138,11 @@ transform: rotate(180.00deg);
 position: static;
 width: 998px;
 height: 136px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 padding: 0px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -156,19 +157,15 @@ text-align: center;
 
 }
 .para-text{
-    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
 position: static;
 width: 852px;
 height: 52px;
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 padding: 0px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -183,19 +180,17 @@ letter-spacing: 0%;
 text-align: center;
 }
 .btn-2{
-    /* Frame 2 */
+  
 position: static;
 width: 208px;
 height: 66px;
-/* Auto layout */
+
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 21px 24px 21px 24px;
 
-
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -209,7 +204,7 @@ background: rgb(13, 19, 33);
 position: static;
 width: 160px;
 height: auto;
-/* Auto layout */
+
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -217,7 +212,6 @@ align-items: center;
 padding: 21px 24px 21px 24px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -233,7 +227,6 @@ text-align: center;
 }
 
 
-/* Frame-13 */
 .frame-13{
     /* Frame 13 */
 position: absolute;
@@ -244,8 +237,6 @@ right: 152px;
 top: 857px;
 bottom: 2995px;
 
-
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
@@ -261,15 +252,13 @@ background: rgba(13, 19, 33, 0.02);
 position: static;
 width: 946px;
 height: 1750px;
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 padding: 0px;
 
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -280,7 +269,7 @@ margin: 0px 10px;
 position: static;
 width: 852px;
 height: 113px;
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -288,7 +277,6 @@ align-items: center;
 padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -299,15 +287,13 @@ margin: 48px 0px;
 position: static;
 width: 852px;
 height: 37px;
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 padding: 0px;
 
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
@@ -326,14 +312,13 @@ text-align: center;
 position: static;
 width: 852px;
 height: 52px;
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 padding: 0px;
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
@@ -354,15 +339,13 @@ text-align: center;
 position: static;
 width: 946px;
 height: 1072px;
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 padding: 0px;
 
-
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
@@ -374,15 +357,13 @@ margin: 48px 0px;
 position: static;
 width: 946px;
 height: 336px;
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 padding: 48px;
 
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
@@ -479,7 +460,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 .para-h3{
-    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. */
+    
 position: static;
 width: 468px;
 height: 52px;
@@ -693,7 +674,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 .para-h3-3-1{
-    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. */
+    
 position: static;
 width: 468px;
 height: 52px;
@@ -880,7 +861,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 .sec-6-1{
-    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. */
+   
 position: static;
 width: 468px;
 height: 52px;
@@ -1035,7 +1016,7 @@ letter-spacing: 0%;
 text-align: center;
 }
 .p-100{
-    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
+  
 position: static;
 width: 852px;
 height: 52px;
@@ -1212,7 +1193,7 @@ text-align: center;
 }
 
 .supportive-1{
-    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. */
+   
 position: static;
 width: 606px;
 height: 52px;
@@ -1697,7 +1678,7 @@ text-align: left;
 }
 
 .box-content-2{
-    /* Lorem Ipsum is simply dummy text of the printing. */
+ 
 position: static;
 width: 284px;
 height: 52px;
@@ -1841,7 +1822,7 @@ background: rgba(13, 19, 33, 0.03);
 
 }
 .footer-items{
-    /* An Open Commitment by Awlad Hossain */
+  
 position: static;
 width: 456px;
 height: 23px;
